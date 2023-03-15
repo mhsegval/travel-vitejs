@@ -9,4 +9,16 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
   }
+  /* Hero Container */
+  .travigo-container {
+    @apply w-[85vw] xl:w-[95vw] m-auto;
+  }
+  /* Hero Buttons */
+  .button-emrald {
+    @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-lg shadow-emerald-300 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-95 text-white w-48
+  }
+  .button-light {
+    @apply bg-gradient-to-b from-white to-slate-100 shadow-lg shadow-slate-300 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-95 text-black w-48
+  }
+
 }

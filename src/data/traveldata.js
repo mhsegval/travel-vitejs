@@ -2,7 +2,7 @@
 import dashboard from '../assets/images/dashboard.png';
 
 export const hero = {
-  'title':'The World is here...',
+  'title':'The world is here...',
   'subTitle':'Where are You?',
   'text':'The true New Yorker secretly believes that people living anywhere else have to be, in some sense, kidding.”',
   'btn1':'Get Started',
