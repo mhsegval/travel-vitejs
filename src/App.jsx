@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavBar, Hero, Footer } from './components'
-import { hero } from './data/traveldata'
+import { hero, navlinks } from './data/traveldata'
 
 const App = () => {
   return (
     <>
-      <NavBar />
+      <NavBar navlinks={navlinks} />
         <Hero hero={hero} />
       <Footer />
     </>

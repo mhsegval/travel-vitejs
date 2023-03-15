@@ -9,3 +9,11 @@ export const hero = {
   'btn2':'Explore',
   'img': dashboard,
 }
+
+export const navlinks = [
+  {link: 'Home', id: 'home'},
+  {link: 'About', id: 'about'},
+  {link: 'Explore', id: 'explore'},
+  {link: 'Pricing', id: 'pricing'},
+  {link: 'Contract', id: 'contract'}
+];
