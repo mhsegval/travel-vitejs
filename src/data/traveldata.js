@@ -1,5 +1,6 @@
 // this file make it easier to fetch and upload data to a data base...
 import dashboard from '../assets/images/dashboard.png';
+import memoryimg from '../assets/images/memory.png';
 
 export const hero = {
   'title':'The world is here...',
@@ -17,3 +18,15 @@ export const navlinks = [
   {link: 'Pricing', id: 'pricing'},
   {link: 'Contract', id: 'contract'}
 ];
+
+export const memory = {
+  'title':'My Memories',
+  'subtitle':'Come To Life Again',
+  'text':'The gladdest moment in human life, methinks, is a departure into unknown lands',
+  'img':memoryimg,
+  'experience': [
+    {'number':'10', 'title':'Years Experience'},
+    {'number':'400', 'title':'Year Collaboration'},
+    {'number':'30k+', 'title':'Happy Customer'},
+  ]
+};

@@ -20,5 +20,8 @@
   .button-light {
     @apply bg-gradient-to-b from-white to-slate-100 shadow-lg shadow-slate-300 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-95 text-black w-48
   }
-  /*  */
+  /* travigo header texts */
+  .travigo-text {
+    @apply text-5xl font-bold lg:text-4xl md:text-3xl text-slate-900 filter drop-shadow-lg
+  }
 }
