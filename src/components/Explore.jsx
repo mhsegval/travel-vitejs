@@ -6,7 +6,7 @@ const Explore = ({placesApi}) => {
       <div className='relative my-7 md:mt-3'>
         <div className='travigo-container'>
           <div className='flex justify-center text-center mb-11 md:mb-7'>
-            <h1 className='text-5xl lg:text-4xl md:text-3xl sm:text-2xl xsm:text-xl font-bold filter drop-shadow-lg text-slate-900'>Explore the Beauty of the World</h1>
+            <h1 className='travigo-text'>Explore the Beauty of the World</h1>
           </div>
           <div className='grid grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5'>
             {placesApi?.map((val, i) => (
