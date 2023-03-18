@@ -3,7 +3,7 @@ import React from 'react'
 const PriceCard = ({plan: {planicon, title, text, plantype, plancontent, buttonText}}) => {
   return (
     <>
-      <div className='p-5 ring-1 rounded-lg bg-slate-50/5 ring-slate-200 shadow-md'>
+      <div className='p-5 ring-1 rounded-lg bg-slate-50/5 ring-slate-200 shadow-md hover:scale-105 duration-300 transition-all cursor-pointer'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center gap-5'>
             <div className='grid items-center'>
@@ -26,7 +26,7 @@ const PriceCard = ({plan: {planicon, title, text, plantype, plancontent, buttonT
                 <img src={val.iconbox} alt="checkbox" className='lg:w-5 lg:h-5' />
               </div>
               <div className='grid items-center'>
-                <h1 className='font-normal text-lg text-gray-900 filter drop-shadow-lg lg:text-base'>{val.text}</h1>
+                <h1 className='font-normal text-lg text-gray-900 filter drop-shadow-lg lg:text-base hover:text-emerald-500'>{val.text}</h1>
               </div>
             </div>
           ))}

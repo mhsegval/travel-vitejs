@@ -9,6 +9,13 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
   }
+  /* Navbar css */
+  .nav-default {
+    @apply flex items-center justify-center fixed top-8 lg:top-5 left-0 right-0 transition-all duration-300;
+  }
+  .nav-sticky{
+    @apply bg-white/80 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 flex items-center h-[9vh] fixed top-0 left-0 right-0 opacity-100 z-[100] shadow-sm shadow-slate-100;
+  }
   /* Hero Container */
   .travigo-container {
     @apply w-[85vw] xl:w-[95vw] m-auto;
@@ -28,6 +35,22 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+    /* scroll-bar-code */
+    body::-webkit-scrollbar {
+      scroll-behavior: smooth;
+      scrollbar-width: thin;
+      scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141);
+    }
+    body::-webkit-scrollbar {
+      @apply w-1.5;
+    }
+    body::-webkit-scrollbar-track {
+      @apply bg-gradient-to-b from-slate-100 to-gray-100;
+    }
+    body::-webkit-scrollbar-thumb {
+      @apply rounded-full bg-gradient-to-tr from-emerald-500 to-green-500;
+    }
 
 /* For IE, Edge and Firefox */
   .scrollbar-hide {

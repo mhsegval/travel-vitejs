@@ -24,6 +24,13 @@ import preminumicon from "../assets/images/preminum.png";
 import checkbox from "../assets/images/checkbox.svg";
 import uncheckbox from "../assets/images/uncheckbox.svg";
 
+import banner from '../assets/images/banner.webp';
+
+import facebook from '../assets/images/facebook.svg';
+import instagram from '../assets/images/instagram.svg';
+import twitter from '../assets/images/twitter.svg';
+import youtube from '../assets/images/youtube.svg';
+
 export const hero = {
   'title':'The world is here...',
   'subTitle':'Where are You?',
@@ -113,4 +120,39 @@ export const pricingapi = {
       "buttonText": "Get Started",
     },
   ],
+};
+
+export const bannerAPI = {
+  "title": "The Greet Outdoors",
+  "text": "Whislist Curated By Travigo.",
+  "imgSrc": banner,
+  "btnText": "Explore More"
+}
+
+export const footerAPI = {
+  "titles": [ {"title": "About"},{"title": "Company"},{"title": "Support"} ],
+  "links": [
+    [
+      {"link": "About US"},
+      {"link": "Features"},
+      {"link": "News"},
+      {"link": "Menu"},
+    ],
+    [
+      {"link": "Why Travigo?"},
+      {"link": "Partner with Us"},
+      {"link": "FAQ"},
+      {"link": "Blog"},
+    ],
+    [
+      {"link": "Account"},
+      {"link": "Support Center"},
+      {"link": "Feedback"},
+      {"link": "Contact Us"},
+      {"link": "Accesbility"},
+    ],
+  ],
+  "sociallinks": [
+    {"icon": facebook},{"icon": instagram},{"icon": twitter},{"icon": youtube},
+  ]
 };
